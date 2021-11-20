@@ -25,7 +25,7 @@ describe('Music Festival Tests: ', function () {
     }
   });
 
-  it('Music List API contains Results with 200 response', (done) => {
+  it('Music list API returns results with 200 response', (done) => {
     try {
       Request.get(
         {
@@ -57,7 +57,7 @@ describe('Music Festival Tests: ', function () {
     }
   });
 
-  it('Music List API must contain bands and respective property --> name', (done) => {
+  it('Music list API must contain bands and respective required property --> name', (done) => {
     try {
       Request.get(
         {
@@ -93,7 +93,7 @@ describe('Music Festival Tests: ', function () {
     }
   });
 
-  it('Verify Error 429 Status Message', (done) => {
+  it('Verify error 429 status message incase of API limit error', (done) => {
     try {
       Request.get(
         {
