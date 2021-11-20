@@ -6,7 +6,6 @@
 
 
 ## Setup
-
 - git clone https://github.com/testerncoder/ea-automation.git
 - cd web
 - npm install

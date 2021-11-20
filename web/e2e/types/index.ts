@@ -7,7 +7,6 @@ export interface IResponseBody {
     }
   ];
 }
-
 export interface IResponseType {
   statusCode: 200 | 429 ;
 }
