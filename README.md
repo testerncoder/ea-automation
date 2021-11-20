@@ -23,4 +23,4 @@
 - Penentration / Security Testing
 ## Results
 
-![Demo](images/demo.jpeg)
+![Demo](images/demo.png)
