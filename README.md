@@ -12,13 +12,13 @@
 - npm install
 - npm run e2e
 
-## Scenaios Covered
-- Heath Check - 200 
-- Error Status 429 Message validation 
-- Required Field Validation
+## Scenarios Covered
+- Heath check - 200 
+- Error status 429 message validation 
+- Required field validation
 
 ## Future Improvements
-- Complete Schema validation
+- Complete schema validation
 - API performance / Load test
 - Penentration / Security Testing
 ## Results
